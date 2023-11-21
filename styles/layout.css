@@ -1,0 +1,140 @@
+/* Header */
+
+.header
+{
+  height: 1180px;
+  background-color: gray;
+
+  display: flex;
+}
+
+  .header-picture
+  {
+    background-color: aqua;
+    flex: 2;
+  }
+
+  .header-information
+  {
+    flex: 3.2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+    .header-information-container
+    {
+      background-color: blue;
+      flex: 60;
+      height: 100%;
+    }
+
+      .information-flexbox
+      { 
+        margin: 5% 0;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: aliceblue;
+      }
+
+
+
+    .header-information-navigation
+    {
+      background-color: lightcoral;
+      flex: 40;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+      .navigation-flexbox
+      {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .navigation-flexbox button
+      {
+        height: 128px;
+      }
+
+        .navigation-row1
+        {
+          display: flex;
+          margin-top: -px;
+          width: 512px
+        }
+
+          .home-button
+          {
+            width: 128px;
+          }
+
+          .story-button
+          {
+            flex: 1;
+          }
+
+        .navigation-row2
+        {
+          display: flex;
+        }
+
+          .projects-button
+          {
+            flex: 1;
+          }
+
+          .skills-button
+          {
+            flex: 1.6;
+          }
+
+          .contacts-button
+          {
+            width: 128px;
+          }
+
+
+    .header-information-transition
+    {
+      height: 220px;
+      background-color: black;
+    }
+
+
+/* Story */
+  
+.story
+{
+  height: 1080px;
+  background-color: lightblue;
+}
+
+/* Projects */
+
+.projects
+{
+  height: 540px;
+  background-color: aquamarine;
+}
+
+/* Skills */
+
+.skills
+{
+ height: 720px; 
+ background-color: lightpink;
+}
+
+/* Footer */
+
+.footer
+{
+  height: 360px;
+  background-color: black;
+}
