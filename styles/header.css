@@ -1,0 +1,116 @@
+.header-picture
+{
+  background-color: aqua;
+  flex: 1;
+  height: 100vh;
+}
+
+.header-information
+{
+  flex: 1.6;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+  .header-information-container
+  {
+    background-color: blue;
+    flex: 6;
+  }
+
+    .information-flexbox
+    { 
+      margin: 5% 0;
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      background-color: aliceblue;
+    }
+
+
+
+  .header-information-navigation
+  {
+    background-color: lightcoral;
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+    .navigation-flexbox
+    {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .navigation-flexbox button
+    {
+      height: 128px;
+    }
+
+      .navigation-row1
+      {
+        display: flex;
+        margin-top: -px;
+        width: 512px
+      }
+
+        .home-button
+        {
+          width: 128px;
+        }
+
+        .story-button
+        {
+          flex: 1;
+        }
+
+      .navigation-row2
+      {
+        display: flex;
+      }
+
+        .projects-button
+        {
+          flex: 1;
+        }
+
+        .skills-button
+        {
+          flex: 1.6;
+        }
+
+        .contacts-button
+        {
+          width: 128px;
+        }
+
+.header-information-gradient
+{
+  height: 110px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  
+  background-image: linear-gradient(to bottom, lightcoral 20%, black 70%);
+}
+
+.header-information-gradient-picture
+{
+  transform: scaleY(-1);
+  bottom: 50px;
+  height: 32px;
+  width: 128px;
+}
+
+.header-information-gradient-picture:hover
+{
+  cursor: pointer;
+}
