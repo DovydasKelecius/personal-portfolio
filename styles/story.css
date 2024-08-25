@@ -1,0 +1,62 @@
+.story-container-picture-frame
+{
+  flex: 1;
+  height: 90%;
+
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+  .story-picture-frame
+  {
+    height: 90%;
+    width: 70%;
+    margin-right: 5%;
+    
+    background-color: bisque;
+  }
+
+.story-about-me
+{
+  flex: 1.6;
+  height: 90%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+  .story-about-me-header
+  {
+    height: 100px;
+    width: 40%;
+
+    margin-bottom: 6%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+  }
+
+    .story-text-about-me-header
+    {
+      font-size: 3em;
+    }
+
+  .story-about-me-content
+  {
+    height: 200px;
+    width: 70%;
+
+    margin-bottom: 2%;
+
+    background-color: brown;
+  }
+
+    .story-text-about-me-content
+    {
+      font-size: 2em;
+    }

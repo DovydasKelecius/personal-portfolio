@@ -8,19 +8,15 @@
   display: flex;
 }
 
-/* Transition */
-
-.transition
-{
-  background-color: black;
-}
-
 /* Story */
   
 .story
 {
   height: 100vh;
   background-image: linear-gradient(black 2%, lightblue 5%, lightblue 95%, black 98%);
+
+  align-items: center;
+  display: flex;
 }
 
 /* Projects */
@@ -44,5 +40,12 @@
 .footer
 {
   height: 30vh;
+  background-color: black;
+}
+
+/* Transition */
+
+.transition
+{
   background-color: black;
 }

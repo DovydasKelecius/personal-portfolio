@@ -18,12 +18,14 @@
   {
     background-color: blue;
     flex: 6;
+    display: flex;
   }
 
     .information-flexbox
     { 
       margin: 5% 0;
-      height: 80%;
+      height: 75%;
+      width: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;
