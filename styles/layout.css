@@ -37,6 +37,10 @@
 {
  height: 66vh; 
  background-image: linear-gradient(black 2%, lightpink 5%, lightpink 95%, black 98%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Footer */

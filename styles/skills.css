@@ -1,0 +1,135 @@
+.skills-container:first-child
+{
+  margin-right: 7%;
+}
+
+.skills-container
+{
+  height: 80%;
+  width: 40%;
+
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+}
+
+  .skills-container-title
+  {
+    width: 95%;
+    height: 9vh;
+
+    margin: 1% 0 0 1%;
+    display: flex;
+
+    background-color: aqua;
+  }
+
+    .skills-container-title-image, .skill-icon
+    {
+      height: 100%;
+      aspect-ratio: 1/1;
+
+      background-color:cornflowerblue;
+    }
+
+    .skills-container-title-name
+    {
+      flex: 1;
+
+      display: flex;
+      align-items: center;
+      background-color: aquamarine;
+    }
+
+      .skills-container-title-name-text
+      {
+        margin-left: 3%;
+        font-size: 3.5em;
+      }
+
+  .skills-container-table 
+  {
+    flex: 0.91;
+    width: 95%;
+
+    overflow: hidden;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    margin: 1% 0 0 1%;
+   
+  }
+
+    .skill
+    {
+      width: 98%;
+      height: 8vh;
+
+      margin: 1%;
+      margin-bottom: 3%;
+      scroll-snap-align: start;
+      display: flex;
+      background-color: wheat;
+    }
+
+    .skill:last-child
+    {
+      margin-bottom: 0px;
+    }
+
+      .skill-progress-bar-container
+      {
+        flex:8;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: burlywood;
+      }
+
+        .skill-progress-bar-name
+        {
+          height: 2.5em;
+          width: 100%;
+
+          background-color: brown;
+        }
+
+        .skill-progress-bar-name-text
+        {
+          font-size: 2em;
+        }
+
+        .skill-progress-bar
+        {
+          width: 95%;
+          height: 15%;
+
+          margin: auto;
+          background-color: black;
+          border-radius: 7px;
+        }
+
+          .skill-progress-bar-complete
+          {
+            height:100%;
+
+            background-image: repeating-linear-gradient(135deg, greenyellow 30px, greenyellow 59px, green 60px, green 89px, greenyellow 90px);
+            border-radius: 8px;
+          } 
+
+      .skill-progress-percent
+      {
+        flex: 1;
+        aspect-ratio: 1/1;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+        .skill-progress-percent-text
+        {
+          font-size: 1.5em;
+
+
+        }
